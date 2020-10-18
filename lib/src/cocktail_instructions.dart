@@ -29,7 +29,7 @@ class CocktailInstructions extends StatelessWidget {
                 fontWeight: FontWeight.w400)));
   }
 
-  //todo стоило ли так возиться с буллетами?
+  //todo стоило ли так возиться чтобы преобразовать изначальный текст в буллеты? В любом случае, весьма хрупкое решение.
   List<Widget> _buildInstructionsContent() {
     var split = cocktail.instruction.split("- ");
     split.remove("");

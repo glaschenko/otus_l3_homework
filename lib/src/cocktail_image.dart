@@ -14,9 +14,9 @@ class CocktailImage extends StatelessWidget {
     return Stack(children: <Widget>[
       image,
       Container(
-          height: 385, //todo надо получать реальный размер изображения или скейлить его
+          height: 385, //todo вероятно предполагается получать реальный размер изображения или скейлить его?
           decoration: BoxDecoration(
-              gradient: LinearGradient(
+              gradient: LinearGradient( //todo правильный ли эффект наложен?
                   begin: Alignment.center,
                   end: Alignment.bottomCenter,
                   colors: [Color(0x00000000), Color(0xDD000000)]))),
